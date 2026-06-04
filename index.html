@@ -7,91 +7,107 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="resume-wrapper">
+    <div class="container">
+        <main class="main-column">
+            <header class="header">
+                <img src="my_photo.jpg" alt="Kyrylo Zavadskyi" class="photo">
+                <div class="title-container">
+                    <h1>Kyrylo Zavadskyi</h1>
+                    <h2>Software QA Engineer</h2>
+                </div>
+            </header>
+            
+            <p class="summary">I am Software QA engineer with practical work experience, and I would like to find a position in this field to grow further. Through self-learning and practice I became familiar with testing tools and the main concepts of manual testing and test documentation. During my university studies, I was introduced to a wide variety of programming languages and IT-related technologies, which helped me build a solid technical foundation. I am currently in the last year of my Bachelor's degree in Information Systems and Technologies, maintaining consistently high grades and improving my professional skills. I am open-minded, result-oriented, and self-motivated. I have good soft and interpersonal skills.</p>
+            
+            <h3 class="section-title">WORK EXPERIENCE</h3>
+            <hr class="divider">
+            
+            <div class="job">
+                <div class="job-header">
+                    <span class="job-title">Junior QA Engineer</span>
+                    <span class="job-date">June 2025 &ndash; Present</span>
+                </div>
+                <div class="company">National Educational Portal</div>
+                
+                <p><span class="highlight">PROJECT DESCRIPTION:</span> A large-scale web platform designed to connect children, teenagers, and adults with extracurricular educational opportunities (clubs, courses, workshops, sports, arts, etc.). The system allows service providers (educational institutions) to register and manage their offerings, while end users can search, filter, and enroll in activities based on location, age, and preferences.</p>
+                
+                <p><span class="highlight">RESPONSIBILITIES:</span> Test execution, retesting, test design, test reporting, test analysis, test cases writing/review, updating/creating test documentation, help with test plans/test strategy, bug tracking/bug reporting, creating of stories/defects, tracking of bug life cycle, team metrics tracking, test automation activities.</p>
+                
+                <p><span class="highlight">CUSTOMER:</span> Ministry of Education and Science of Ukraine</p>
+                
+                <p><span class="highlight">PROJECT TEAM SIZE:</span> 15 team members</p>
+                
+                <p><span class="highlight">TOOLS & TECHNOLOGIES:</span> Jira, Confluence, Postman, GitHub, DevTools, Visual Studio Code, SQL Server, Figma, Notion</p>
+                <hr class="divider">
+            </div>
+        </main>
+        
         <aside class="sidebar">
-            <div class="profile-pic-container">
-                <img src="my_photo.jpg" alt="Kyrylo Zavadskyi Photo" class="profile-pic">
+            <h3 class="sidebar-title">CONTACT</h3>
+            <ul class="sidebar-list">
+                <li>+380 50 185 23 25</li>
+                <li>kyrylozavadskyi@gmail.com</li>
+                <li>linkedin.com/in/kyrylo-zavadskyi</li>
+            </ul>
+            
+            <h3 class="sidebar-title">SKILLS</h3>
+            <div class="skill-group">
+                <h4>Technical Skills:</h4>
+                <ul class="sidebar-list">
+                    <li>Manual Testing (Test case design, execution, regression testing, smoke and sanity testing, functional and non-functional testing)</li>
+                    <li>API Testing (REST API testing with Postman & Swagger, validation of responses, error handling)</li>
+                    <li>SQL (CRUD, joins, queries)</li>
+                    <li>Test Automation (Selenium WebDriver, Jenkins pipelines)</li>
+                    <li>HTML/CSS</li>
+                </ul>
+            </div>
+            <div class="skill-group">
+                <h4>Industry Knowledge:</h4>
+                <ul class="sidebar-list">
+                    <li>Agile Methodologies</li>
+                    <li>SDLC, STLC, Defect Lifecycle</li>
+                    <li>Requirement Analysis & Documentation</li>
+                </ul>
+            </div>
+            <div class="skill-group">
+                <h4>Tools & Technologies:</h4>
+                <ul class="sidebar-list">
+                    <li>Jira, Confluence, Notion</li>
+                    <li>Postman, Newman, Swagger</li>
+                    <li>DevTools</li>
+                    <li>Git, GitHub</li>
+                    <li>Selenium, Jenkins</li>
+                </ul>
+            </div>
+            <div class="skill-group">
+                <h4>Operating Systems:</h4>
+                <ul class="sidebar-list">
+                    <li>Windows, Linux, macOS</li>
+                    <li>Android, iOS</li>
+                </ul>
             </div>
             
-            <section class="sidebar-section">
-                <h3>CONTACT</h3>
-                <p>+380 50 185 23 25</p>
-                <p>kyrylozavadskyi@gmail.com</p>
-                <p>linkedin.com/in/kyrylo-zavadskyi</p>
-            </section>
-
-            <section class="sidebar-section">
-                <h3>SKILLS</h3>
-                <h4>Technical Skills:</h4>
-                <p>Manual Testing (Test case design, execution, regression testing, smoke and sanity testing, functional and non-functional testing)</p>
-                <p>API Testing (REST API testing with Postman & Swagger, validation of responses, error handling)</p>
-                <p>SQL (CRUD, joins, queries)</p>
-                <p>Test Automation (Selenium WebDriver, Jenkins pipelines)</p>
-                <p>HTML/CSS</p>
-                
-                <h4>Industry Knowledge:</h4>
-                <p>Agile Methodologies, SDLC, STLC, Defect Lifecycle, Requirement Analysis & Documentation</p>
-                
-                <h4>Tools & Technologies:</h4>
-                <p>Jira, Confluence, Notion, Postman, Newman, Swagger, Dev Tools, Git, GitHub, Selenium, Jenkins</p>
-                
-                <h4>Operating Systems:</h4>
-                <p>Windows, Linux, macOS, Android, IOS</p>
-            </section>
-
-            <section class="sidebar-section">
-                <h3>EDUCATION</h3>
-                <h4>Bachelor degree</h4>
-                <p>Kharkiv National University of Radioelectronics</p>
-                <p>Specialty: Cybersecurity<br>2021-2025</p>
-                
-                <h4>Bachelor degree</h4>
-                <p>Kharkiv National University of Radioelectronics</p>
-                <p>Specialty: Information Systems and Technologies<br>2022-present</p>
-            </section>
-
-            <section class="sidebar-section">
-                <h3>LANGUAGES</h3>
-                <p>English B2 level (Upper-Intermediate)</p>
-            </section>
-
-            <section class="sidebar-section">
-                <h3>OTHER</h3>
-                <p>SoftServe IT Academy: Compete QA/QC Course</p>
-                <p>Udemy: Jira & Confluence for Projects & Teams</p>
-                <p>Linkedin: Software Testing Foundations: Keeping QA Skills Current in the Age of AI</p>
-            </section>
+            <h3 class="sidebar-title">EDUCATION</h3>
+            <ul class="sidebar-list edu-list">
+                <li>
+                    Bachelor degree<br>
+                    Kharkiv National University of Radioelectronics<br>
+                    Specialty: Cybersecurity<br>
+                    2021 &ndash; 2025
+                </li>
+                <li>
+                    Bachelor degree<br>
+                    Kharkiv National University of Radioelectronics<br>
+                    Specialty: Information Systems and Technologies<br>
+                    2022 &ndash; present
+                </li>
+            </ul>
+            
+            <h3 class="sidebar-title">LANGUAGES</h3>
+            <ul class="sidebar-list">
+                <li>English B2 level (Upper-Intermediate)</li>
+            </ul>
         </aside>
-
-        <main class="main-content">
-            <header class="main-header">
-                <h1>Kyrylo Zavadskyi</h1>
-                <h2>Software QA Engineer</h2>
-            </header>
-
-            <section class="main-section">
-                <p>I am Software QA engineer with practical work experience, and I would like to find a position in this field to grow further. Through self-learning and practice I became familiar with testing tools and the main concepts of manual testing and test documentation. During my university studies, I was introduced to a wide variety of programming languages and IT-related technologies, which helped me build a solid technical foundation. I am currently in the last year of my Bachelor's degree in Information Systems and Technologies, maintaining consistently high grades and improving my professional skills. I am open-minded, result-oriented, and self-motivated. I have good soft and interpersonal skills.</p>
-            </section>
-
-            <section class="main-section">
-                <h3>WORK EXPERIENCE</h3>
-                <div class="job">
-                    <div class="job-header">
-                        <h4>Junior QA Engineer</h4>
-                        <span class="date">June 2025 - Present</span>
-                    </div>
-                    <div class="company">National Educational Portal</div>
-                    
-                    <p><strong>PROJECT DESCRIPTION:</strong> A large-scale web platform designed to connect children, teenagers, and adults with extracurricular educational opportunities (clubs, courses, workshops, sports, arts, etc.). The system allows service providers (educational institutions) to register and manage their offerings, while end users can search, filter, and enroll in activities based on location, age, and preferences.</p>
-                    
-                    <p><strong>RESPONSIBILITIES:</strong> Test execution, retesting, test design, test reporting, test analysis, test cases writing/review, updating/creating test documentation, help with test plans/test strategy, bug tracking/bug reporting, creating of stories/defects, tracking of bug life cycle, team metrics tracking, test automation activities.</p>
-                    
-                    <p><strong>CUSTOMER:</strong> Ministry of Education and Science of Ukraine</p>
-                    <p><strong>PROJECT TEAM SIZE:</strong> 15 team members</p>
-                    <p><strong>TOOLS & TECHNOLOGIES:</strong> Jira, Confluence, Postman, GitHub, DevTools, Visual Studio Code, SQL Server, Figma, Notion</p>
-                </div>
-            </section>
-        </main>
     </div>
 </body>
 </html>
